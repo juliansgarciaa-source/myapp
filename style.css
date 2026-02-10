@@ -1,11 +1,14 @@
-.body {
-    margin: 0;
-    padding: 0;
-    background-color: #121212;  /* fondo oscuro */
-    color: #000000;             /* texto blanco */
-    font-family: Arial, sans-serif;
+html {
+    background-color: #121212;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff; /* texto blanco */
+    font-family: Arial, sans-serif;
+}
 
 .container {
     background-color: #1e1e1e;
@@ -15,6 +18,7 @@
 
 h1 {
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 .buttons button {
@@ -25,6 +29,8 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
+    background-color: #bb86fc;
+    color: #000;
 }
 
 button:hover {
@@ -34,10 +40,8 @@ button:hover {
 
 .resultado {
     margin-top: 30px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.08);
     padding: 20px;
     border-radius: 10px;
-}
-.html {
-    background-color: #121212;
+    color: #ffffff;
 }
