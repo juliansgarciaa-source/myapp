@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Estado Emocional del Día</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎭 Estado Emocional</h1>
+        <p>¿Cómo te sientes hoy?</p>
+
+        <div class="buttons">
+            <button onclick="mostrarContenido('despecho')">💔 Despecho</button>
+            <button onclick="mostrarContenido('enamorado')">❤️ Enamorado</button>
+            <button onclick="mostrarContenido('empoderado')">😎 Empoderado</button>
+            <button onclick="mostrarContenido('motivado')">🔥 Motivado</button>
+        </div>
+
+        <div class="resultado" id="resultado">
+            <h2 id="titulo"></h2>
+            <p id="frase"></p>
+            <p id="cancion"></p>
+            <p id="hashtags"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
